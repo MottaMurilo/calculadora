@@ -3,7 +3,7 @@ let darkTheme = "styles/dark.css";
 
 // Clears the screen on click of C button.
 function clearScreen() {
-  .getElemdocumententById("result").value = "";
+  document.getElementById("result").value = "";
 }
 // Displays entered value on screen.
 function liveScreen(value) {
